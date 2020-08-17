@@ -23,6 +23,13 @@ body,
 .spacer {
   height: 100%;
 }
+.addColor {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 10%;
+}
 
 .bubble-wrap {
   margin: 0 auto;

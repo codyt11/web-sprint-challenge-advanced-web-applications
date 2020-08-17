@@ -40,12 +40,12 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 > This section should include instruction for the sprint challenge. These should only cover things that are _not_ being evaluated by the challenge itself, e.g. environment/project setup, link to a starter project, etc. In general, this will be the following Git fork, clone, branch, commit, push, create pull request flow, though may need to be adapted for some specific challenges.
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: git push origin `<firstName-lastName>`
+- [x ] Create a forked copy of this project
+- [x ] Add your team lead as collaborator on Github
+- [ x] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [x ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [ x] Push commits: git push origin `<firstName-lastName>`
 - [ ] **RUN** npm install at the root to retrieve all the dependencies for the node server. You will not need to create any react apps here nor will you need to install any other dependencies. You should have all you need in this repo.
 - [ ] **LOOK** at all the files you've been given for this project. One important file to note is server.js. This file contains an API that you are going to be interfacing with. Below is documentation on how to interact with the API.
 - [ ] **RUN** npm start to get your API up and running on http://localhost:5000. This is the URL you're going to need to use within your React app in order to make AJAX requests for data.
@@ -61,8 +61,8 @@ Your finished project must include all of the following requirements:
 
 Build a login form to authenticate your users.
 
-- [ ] Construct an AXIOS request to retrieve a token from the server. You'll use this token to interact with the API
-- [ ] Save the token to localStorage
+- [x ] Construct an AXIOS request to retrieve a token from the server. You'll use this token to interact with the API
+- [x ] Save the token to localStorage
 - [ ] Build a `axiosWithAuth` module to create an instance of axios with the authentication header
 - [ ] Build a `PrivateRoute` component and use it to protect a route that renders the `BubblesPage` component
 
